@@ -20,18 +20,18 @@ namespace WebApplication1.Controllers
         {
             return "Browse displayed";
         }
-        // GET: Product/Details/105
-        public string Details()
+        // GET: Product/Details/Id
+        public string Details(int Id)
         
         {
-            return "Details displayed for Id=105";
+            return "Details displayed for, Id=" +Id;
         }
 
-        // GET: Product/Location?zip=44124
-        public string Location()
+        // GET: Product/Location?zip=Zip
+        public string Location(int Zip)
 
         {
-            return "Location displayed for zip=44124";
+            return "Location displayed for, Zip=" +Zip;
         }
     }
 }
