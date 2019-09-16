@@ -23,16 +23,17 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                  
+
                 </ul>
             </div>
         </div>
     </div>
+    <header><h1>Welcome to XYZ Store</h1></header>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; Fall @DateTime.Now.Year - IT203082661CPaul</p>
+            <p>&copy;@DateTime.Now.Year Copyright of XYZ Store</p>
         </footer>
     </div>
 
