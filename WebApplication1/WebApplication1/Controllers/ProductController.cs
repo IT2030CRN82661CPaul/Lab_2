@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Product/Location?zip=Zip
-        public string Location(int Zip)
+        public string Location(string Zip)
 
         {
             return "Location displayed for, Zip=" +Zip;
